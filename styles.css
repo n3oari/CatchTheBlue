@@ -1,0 +1,105 @@
+body {
+
+  background-color: black;
+  margin: 0;
+  padding: 50px 0;
+}
+
+#juego {
+  width: 70vw;
+  height: 80vh;
+  position: relative;
+  background-color: black;
+  border: solid white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+#reglas-juego {
+  position: absolute;
+  top: 20;
+  left: 0;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+
+}
+
+.circulo {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+ transition: left 0.3s ease, top 0.3s ease;
+
+}
+
+#circuloRojo {
+  background-color: red;
+}
+
+#circuloAzul {
+  background-color: blue;
+}
+
+#circuloVerde {
+  background-color: green;
+}
+
+#circuloAmarillo {
+  background-color: yellow;
+}
+
+#circuloRosa {
+  background-color: pink;
+}
+
+#circuloMorado {
+  background-color: purple;
+}
+
+#circuloNaranja {
+  background-color: orange;
+}
+
+#circuloDeshabilitado {
+  background-color: grey;
+
+}
+
+#circuloFuchsia {
+  background-color: fuchsia;
+}
+
+
+#contador {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#troll {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+
+}
