@@ -11,4 +11,4 @@
 
 <br>
 
-  - ![screenshot1](miniatura.png)
+![screenshot1](miniatura.png)
